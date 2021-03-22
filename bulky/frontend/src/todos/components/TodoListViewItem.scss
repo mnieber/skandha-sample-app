@@ -1,0 +1,17 @@
+.TodoListViewItem {
+  display: flex;
+  cursor: pointer;
+  flex-direction: row;
+  margin-bottom: 2px;
+  color: white;
+  user-select: none;
+}
+
+.TodoListViewItem--selected {
+  background-color: gray;
+}
+
+.TodoListViewItem--highlighted {
+  border: 1 solid white;
+  color: red;
+}
